@@ -19,7 +19,6 @@ class TestDeliveryCarrier(CommonCarrierCase):
                     "description": self.free_carrier.name or None,
                     "id": self.free_carrier.id,
                     "name": self.free_carrier.name,
-                    "code": self.free_carrier.code,
                     "type": None,
                 },
                 {
@@ -27,7 +26,6 @@ class TestDeliveryCarrier(CommonCarrierCase):
                     "description": self.poste_carrier.name or None,
                     "id": self.poste_carrier.id,
                     "name": self.poste_carrier.name,
-                    "code": self.poste_carrier.code,
                     "type": None,
                 },
             ],
@@ -44,7 +42,6 @@ class TestDeliveryCarrier(CommonCarrierCase):
                     "description": self.free_carrier.name or None,
                     "id": self.free_carrier.id,
                     "name": self.free_carrier.name,
-                    "code": self.free_carrier.code,
                     "type": None,
                 },
                 {
@@ -52,7 +49,6 @@ class TestDeliveryCarrier(CommonCarrierCase):
                     "description": self.poste_carrier.name or None,
                     "id": self.poste_carrier.id,
                     "name": self.poste_carrier.name,
-                    "code": self.poste_carrier.code,
                     "type": None,
                 },
             ],

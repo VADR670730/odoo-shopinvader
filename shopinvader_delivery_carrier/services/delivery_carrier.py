@@ -72,11 +72,6 @@ class DeliveryCarrierService(Component):
                             "required": False,
                             "nullable": True,
                         },
-                        "code": {
-                            "type": "string",
-                            "required": False,
-                            "nullable": True,
-                        },
                         "description": {
                             "type": "string",
                             "required": False,
@@ -147,4 +142,6 @@ class DeliveryCarrierService(Component):
 
     @property
     def _json_parser_carrier(self):
+        # TODO in V10 we have a description field and a code field on the carrier
+        # maybe we need to add them back in 12/13
         return ["id", "name", "name:description"]
